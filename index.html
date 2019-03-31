@@ -1,0 +1,25 @@
+<html>
+  <head>
+    <title>Todo App</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" type="text/css" media="screen" charset="utf-8">    
+  </head>
+  <body>
+    <div class="container">
+        <p>
+            <label for="new-task">Add Item</label><input id="new-task" type="text"><button style="padding:10px;background-color:cadetblue;border-radius: 3px;">Add</button>
+        </p>
+        <ul id="incomplete-tasks">
+            <li><input type="checkbox"><label>Homework</label><input type="text"><button class="edit">Edit</button><button class="delete"><i class="fas fa-trash-alt"></i></button></li>
+            <li><input type="checkbox"><label>Labwork</label><input type="text" value="Go Shopping"><button class="edit">Edit</button><button class="delete"><i class="fas fa-trash-alt"></i></button></li>
+        </ul>
+ 
+        <ul id="completed-tasks">
+            <li><input type="checkbox" checked><label>Classwork</label><input type="text"><button class="edit">Edit</button><button class="delete"><i class="fas fa-trash-alt"></i></button></li>
+        </ul>
+    </div>
+
+    <script type="text/javascript" src="script.js"></script>
+
+  </body>
+</html>
